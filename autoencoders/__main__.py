@@ -26,7 +26,7 @@ def main():
     batch_size = args.batch_size
     epochs = args.epochs
     steps = args.steps
-    lr = steps.lr
+    lr = args.lr
 
 
     model = load_model("model.json","model.h5")
